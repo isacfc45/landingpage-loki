@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-image: url(fundo.png);
+    background-size: 100%;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
+.topo{
+    margin-top: 45px;
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    margin-top: 35px;
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 121px;
+    margin-bottom: 111px;
+}
+
+.conteudo{
+    margin-left: 73px;
+}
+
+.desc{
+    width: 600px;
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #FFFFFF;
+}
+
+.cont{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.estrelas{
+    display: flex;
+}
+
+.time{
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.botoes{
+    margin-top: 50px;
+}
+
+.botao1{
+    width: 184px;
+    height: 52px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    background: #0072D2;
+    border: none;
+    border-radius: 3px;
+}
+
+.botao2{
+    width: 115px;
+    height: 52px;
+    margin-left: 21px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    background: #131318;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
